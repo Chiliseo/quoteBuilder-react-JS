@@ -1,5 +1,5 @@
 
-import Quote from "./pages/quote.js";
+import Quote from "./pages/quote.jsx";
 
 
 var indexRoutes = [

@@ -1,5 +1,5 @@
 import React from 'react';
-import Input from './input.js'
+import Input from './input.jsx'
 const Scale = (props) => {
     return (
 

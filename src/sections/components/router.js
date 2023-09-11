@@ -1,10 +1,10 @@
-import InfoForm from './infoForm.js';
-import Pages from './pages.js';
-import BackEndNeeds from './backEndNeeds.js';
-import BasicNeeds from './basicNeeds.js';
-import PriceBox from './priceBox.js';
-import Input from './input.js';
-import Button from './button.js';
+import InfoForm from './infoForm.jsx';
+import Pages from './pages.jsx';
+import BackEndNeeds from './backEndNeeds.jsx';
+import BasicNeeds from './basicNeeds.jsx';
+import PriceBox from './priceBox.jsx';
+import Input from './input.jsx';
+import Button from './button.jsx';
 
 export {
     InfoForm,

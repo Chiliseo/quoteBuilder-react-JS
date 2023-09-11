@@ -1,12 +1,13 @@
-import Input from './input'
+import React from "react"
+import Input from './input.jsx'
 
 const BasicNeeds = (props) => {
 	const {
 		value,
 		update = () => null
-	}
+	} = props
 
-	let updateProp = (e, def) => {
+	const updateProp = (e, def) => {
 		let newSet = { ...value };
 		let id = e.target.id,
 			x = Number(e.target.value);
@@ -14,6 +15,7 @@ const BasicNeeds = (props) => {
 		newSet[id] ? newSet.subtotal += x : newSet.subtotal -= x;
 		props.update({ ...newSet }, "basicNeeds", `${def}: Most of these pages require a basic database and editing features built in. Theses pages will need to be built dynamicly. Note - this is only for full pages. Some of these can be built as less dynamic sections.`);
 	}
+
 	return (
 		<div subtotal={value.subtotal}>
 			<form className="d-flex flex-column flex-wrap flex-md-row justify-content-start align-items-around">
