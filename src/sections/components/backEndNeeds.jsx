@@ -1,6 +1,6 @@
 import React from 'react';
-import Input from './input.js';
-import Scale from './scale.js';
+import Input from './input.jsx';
+import Scale from './scale.jsx';
 
 const BackEndNeeds = (props) => {
     let value = props.value;

@@ -1,9 +1,9 @@
 import React from 'react';
-import Input from'./input.js'
-import Button from './button.js'
-let InfoBox = (props) => {
-	let value = props.value;
-	let  typing = (e) =>{
+import Input from'./input.jsx'
+import Button from './button.jsx'
+const InfoBox = (props) => {
+	const value = props.value;
+	const  typing = (e) =>{
         let newSet = {...value};
         let id = e.target.id,
          inner = e.target.value;

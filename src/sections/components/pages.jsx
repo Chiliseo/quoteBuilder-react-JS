@@ -1,4 +1,5 @@
-import Input from "components/input";
+import React from "react";
+import Input from "./input.jsx";
 
 export default (props) => {
 	let value = props.value;
